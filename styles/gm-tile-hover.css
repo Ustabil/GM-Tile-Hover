@@ -1,0 +1,21 @@
+#gm-tile-hover-tooltip {
+  position: fixed;
+  z-index: 10000;
+  max-width: 360px;
+  min-width: 220px;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 12px 15px;
+  background: #252525;
+  color: #f0e8d8;
+  border: 1px solid #a58a55;
+  border-radius: 7px;
+  box-shadow: 0 5px 20px #000a;
+  font-size: 13px;
+  line-height: 1.5;
+  pointer-events: none;
+}
+#gm-tile-hover-tooltip[hidden] { display: none !important; }
+#gm-tile-hover-tooltip hr { border: 0; border-top: 1px solid #a58a55; margin: 7px 0; }
+#gm-tile-hover-tooltip p { margin: 0.35em 0; }
+#gm-tile-hover-tooltip table { width: 100%; }

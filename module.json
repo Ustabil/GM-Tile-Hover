@@ -1,0 +1,10 @@
+{
+  "id": "gm-tile-hover",
+  "title": "GM Tile Hover",
+  "description": "Show GM Notes HTML when the GM hovers over tiles on the canvas.",
+  "version": "0.1.0",
+  "authors": [{"name": "Custom local module"}],
+  "compatibility": {"minimum": "14", "verified": "14"},
+  "esmodules": ["scripts/gm-tile-hover.mjs"],
+  "styles": ["styles/gm-tile-hover.css"]
+}
